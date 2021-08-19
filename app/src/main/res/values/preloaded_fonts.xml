@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/bad_script</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee</item>
+        <item>@font/chewy</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/galdeano</item>
+        <item>@font/graduate</item>
+        <item>@font/holtwood_one_sc</item>
+        <item>@font/mitr</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/orbitron_bold</item>
+        <item>@font/viga</item>
+    </array>
+</resources>

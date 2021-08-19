@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="250dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/border_kaybettin"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/carpiOyunBitti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_cancel_kaybettin"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tebriklerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAYBETTİN.."
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#5E5E5E"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/carpiOyunBitti"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="230dp"
+        android:minHeight="100dp"
+        app:contentPadding="6dp"
+        android:backgroundTint="#F4F3F8"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tebriklerText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/puanTablosuShow"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="2dp"
+                    android:layout_marginEnd="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameBirinciOyuncuSonuc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:paddingStart="2dp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp" />
+
+                    <TextView
+                        android:id="@+id/puanSayaciBirinciOyuncuSonuc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="#2F000000">
+
+                </View>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="2dp"
+                    android:layout_marginStart="3dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameIkinciOyuncuSonuc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:paddingStart="2dp"
+                        android:textColor="@color/black"
+                        android:textSize="23sp" />
+
+
+                    <TextView
+                        android:id="@+id/puanSayaciIkinciOyuncuSonuc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="7dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/galibiyetOraniTextOyunuKaybettinPuanla"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:id="@+id/imageViewTrophy"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/ic_sadface"
+        app:layout_constraintTop_toBottomOf="@id/puanTablosuShow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tekrarOyunBittiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="140dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_kaybettin"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:ems="8"
+        android:text="@string/tekrar_oyna"
+        android:textColor="#5E5E5E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTrophy"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/menuyeGitOyunBittiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="140dp"
+        android:background="@drawable/border_kaybettin"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:ems="8"
+        android:text="@string/menuye_git"
+        android:textColor="#5E5E5E"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tekrarOyunBittiButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

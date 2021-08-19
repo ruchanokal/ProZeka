@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_anaFragment2"
+            app:destination="@id/anaFragment2" />
+        <action
+            android:id="@+id/action_signInFragment_to_sifremiUnuttumFragment"
+            app:destination="@id/sifremiUnuttumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_anaFragment2"
+            app:destination="@id/anaFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/anaFragment2"
+        android:name="com.ruchanokal.mathmaster.fragments.AnaFragment"
+        android:label="fragment_ana"
+        tools:layout="@layout/fragment_ana" />
+    <fragment
+        android:id="@+id/sifremiUnuttumFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.SifremiUnuttumFragment"
+        android:label="fragment_sifremi_unuttum"
+        tools:layout="@layout/fragment_sifremi_unuttum" >
+        <action
+            android:id="@+id/action_sifremiUnuttumFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+</navigation>

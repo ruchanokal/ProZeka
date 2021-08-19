@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">ProBrain</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="baglanti_problemi">Connection Problem!</string>
+    <string name="baglanti_problemi_aciklama">Please check your internet connection and try again!</string>
+    <string name="baglanti_problemi_button">Okay</string>
+    <string name="beyin_sporu">Brainstorming!</string>
+    <string name="beyin_sporu_aciklama">Would you like to do some mind exercise today?</string>
+    <string name="hata_olustu_toast">An error has occurred, please try again!</string>
+    <string name="en_yuksek_skor">Top Score</string>
+    <string name="level">Level</string>
+    <string name="level_buyuk">LEVEL</string>
+    <string name="hatirlatici">Reminder</string>
+    <string name="hatirlatici_aciklama">Reminder notifications for the game</string>
+    <string name="oy_ver">Rate</string>
+    <string name="share">Share</string>
+    <string name="hizli_matematik">Quick Math</string>
+    <string name="renkli_matematik">Colorful Math</string>
+    <string name="renkler">Color Pool</string>
+    <string name="oyna">PLAY</string>
+    <string name="nasil_oynanir">HOW TO PLAY?</string>
+
+    <string name="ayarlar">Settings</string>
+    <string name="gunluk_bildirimler_al">Get Daily Notifications</string>
+    <string name="cikis_yap">Log out</string>
+
+    <string name="nasil_oynanir_seviyebir_1">This game tests your math skills as well as your quickness and attention. When the game starts, you will see a math operation that needs to be done. After doing this, you must find the correct answer from the options above and mark it. But you have to be careful and fast because the options will be constantly changing. In the example above, the numbers are moving based on a certain period.</string>
+    <string name="nasil_oynanir_seviyebir_2">When you look at the table above, there is an action that needs to be done at the bottom of the screen and you must do this within the time given to you. After that, you have to choose the correct answer from the constantly moving answer options. You will earn points as you get it right in the game.</string>
+    <string name="nasil_oynanir_seviyebir_3">There are two different modes in the game. Level mode is a game style based on the player\'s passing the specified levels. The player tries to get from the first level to the last level. When you finish the last level, the game is completed successfully.</string>
+    <string name="nasil_oynanir_seviyebir_4">In infinite mode, the game continues until you make a mistake. In both game styles, the game difficulty will increase as your score increases and your level increases. The points you collect in the endless mode are reflected in the top scores list.</string>
+
+    <string name="nasil_oynanir_seviyeiki_1">First of all, we do not recommend you to play this game without playing the first game. Because this game was developed as a upper version of the other game. If you haven\'t played it, it will be more appropriate to practice in the first game to get used to the pace of the game. In this game, as in the other game, you have to do the given operation correctly, and you have to find your answer among the moving options.</string>
+    <string name="nasil_oynanir_seviyeiki_2">There is an added feature in this level: Colored Numbers. If you look at the example above, you should have seen that the numbers to be operated are in different colors. Your mission in this game; along with finding the correct answer to the mathematical operation, it will also be to find the mixture of the colors of these two numbers among the options.</string>
+    <string name="nasil_oynanir_seviyeiki_3">In the above operation, 28 and 29 add up to 57. But among the options there are two 57. Here comes the importance of colors. In the next step, you need to determine that the mixture of the colors of these numbers (28 and 29) is purple and click on the number 57 whose background color is purple in response.</string>
+    <string name="nasil_oynanir_seviyeiki_4">You may not know the mixtures of colors. Considering this possibility, we wanted to share the mixtures of colors. Only three different color mixes will appear in the game. We recommend that you start the game after examining the table above and understanding the color mixtures.</string>
+    <string name="nasil_oynanir_seviyeiki_5">There are two different modes in the game. Level mode is a game style based on the player\'s passing the specified levels. The player tries to get from the first level to the last level. When you finish the last level, the game is completed successfully.</string>
+    <string name="nasil_oynanir_seviyeiki_6">In infinite mode, the game continues until you make a mistake. In both game styles, the game difficulty will increase as your score increases and your level increases. The points you collect in the endless mode are reflected in the top scores list.</string>
+
+    <string name="nasil_oynanir_seviyeuc_1">Here is an original game that tests your attention and quickness. In the table above, you can see that GRAY is written on the card under the timer. You may have noticed that "COLOR" is written in the upper left. Your goal here will be to search for the color in the text that says "GRAY", that is, orange, as "COLOR" in the options below. Then you should count how many orange texts there are and mark the correct answer in the options.</string>
+    <string name="nasil_oynanir_seviyeuc_2">The situation in "TEXT" is also slightly different from the previous one. In the example above, you must have noticed that the card below the timer says GRAY, and the card in the upper left says "TEXT". Your goal here will be to search for “GRAY” as text in the options below. So you should look for the text “GRAY” no matter what color it is painted. Then you should count how many there are and mark the correct answer in the options.</string>
+    <string name="nasil_oynanir_seviyeuc_3">In the third situation in this game, both the color names of the words and the colors in them must be the same. In the table above, you can see that there are 4 words that meet these conditions. For example, you must have seen that the color of "YELLOW" from the words in the box above is also yellow.</string>
+    <string name="nasil_oynanir_seviyeuc_4">There are two different modes in the game. Level mode is a game style based on the player\'s passing the specified levels. The player tries to get from the first level to the last level. When you finish the last level, the game is completed successfully.</string>
+    <string name="nasil_oynanir_seviyeuc_5">In infinite mode, the game continues until you make a mistake. In both game styles, the game difficulty will increase as your score increases and your level increases. The points you collect in the endless mode are reflected in the top scores list.</string>
+
+
+    <string name="devam">next</string>
+    <string name="cikis_yapmak_icin_tekrar_dokunun">Press back again to exit</string>
+    <string name="sure_bitti">Time\'s up!</string>
+    <string name="tekrar_oyna">PLAY AGAIN</string>
+    <string name="oyuna_devam">KEEP PLAYING</string>
+    <string name="reklam_yuklenemedi">The ad could not be loaded, please check your internet connection!</string>
+    <string name="tuh_be_az_kalmisti">You were so close!</string>
+    <string name="yarisini_bitirdin_bile">You\'ve already finished half the level!</string>
+    <string name="neredeyse_yarisina_geldin">You\'re almost halfway there!</string>
+    <string name="bir_daha_dene">Try Again!</string>
+    <string name="level_modu">Level Mode</string>
+    <string name="sonsuz_mod">Infinite Mode</string>
+    <string name="bilgilendirme_metnini_birdaha_gosterme">Don\'t show this information text again</string>
+    <string name="metin">TEXT</string>
+    <string name="renk">COLOR</string>
+    <string name="metinesittirrenk">TEXT = COLOR</string>
+    <string name="ayni">SAME</string>
+    <string name="kirmizi">RED</string>
+    <string name="mavi">BLUE</string>
+    <string name="sari">YELLOW</string>
+    <string name="turuncu">ORANGE</string>
+    <string name="mor">PURPLE</string>
+    <string name="yesil">GREEN</string>
+    <string name="siyah">BLACK</string>
+    <string name="gri">GRAY</string>
+    <string name="pembe">PINK</string>
+    <string name="sifremi_unuttum_text">Please type your e-mail address in the space below and click the OK button, a link will be sent to your e-mail address to reset your password. You can check your inbox in a few minutes.</string>
+    <string name="eposta_adresinizi_girin">Your E-mail Address</string>
+    <string name="eposta_gonderilemedi">Failed to send e-mail, please try again.</string>
+    <string name="eposta_gonderildi">E-mail sent, please check your e-mail address.</string>
+    <string name="lutfen_gerekli_alanlari_doldurunuz">Please complete all the required fields</string>
+    <string name="lutfen_sifrenizi_giriniz">Please enter your password</string>
+    <string name="lutfen_kayitli_emailinizi_giriniz">Please enter your registered e-mail address</string>
+    <string name="boyle_bir_kullanici_yok">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="lutfen_internet_baglantinizi_kontrol_edin">Please check your internet connection!</string>
+    <string name="sifrenizi_girin">Your password</string>
+    <string name="giris_yap">LOGIN</string>
+    <string name="sifremi_unuttum">I Forgot My Password</string>
+    <string name="bir_hesabin_yok_mu">Don\'t have an account?</string>
+    <string name="kayit_ol">REGISTER</string>
+    <string name="kullaniciAdi">Username</string>
+    <string name="eposta_adresi">E-mail address</string>
+    <string name="sifre">Password</string>
+    <string name="bir_sifre_seciniz">Choose a password</string>
+    <string name="sifreyi_tekrar_giriniz">Re-enter the password</string>
+    <string name="ile_giris_yap"> </string>
+    <string name="lutfen_baska_bir_kullanici_adi_deneyin">Please try another username!</string>
+    <string name="sifreler_ayni_olmalidir">Passwords must match</string>
+    <string name="hosgeldin">Welcome</string>
+    <string name="eposta_kullaniliyor">This email address is already in use by another account</string>
+    <string name="alti_haneli_sifre">Please enter a password of at least 6 characters</string>
+    <string name="gecerli_email">Please enter a valid e-mail address.</string>
+    <string name="tebrikler">CONGRATS!</string>
+    <string name="oyunu_basariyla_tamamladin">You have successfully completed the game!</string>
+    <string name="tekrar_oyna_">Play Again</string>
+    <string name="menuye_git">Go to Menu</string>
+    <string name="oyun_sona_erdi">GAME OVER</string>
+    <string name="reklam_izle_devam_et">Watch ad and go on</string>
+    <string name="skorun">YOUR SCORE</string>
+
+
+    <string name="leaderboard_id_1" translatable="false">CgkIqvS2k60EEAIQAg</string>
+    <string name="leaderboard_id_2" translatable="false">CgkIqvS2k60EEAIQAw</string>
+    <string name="leaderboard_id_3" translatable="false">CgkIqvS2k60EEAIQBA</string>
+    <string name="leaderboard_id_all_games" translatable="false">CgkIqvS2k60EEAIQBQ</string>
+    <string name="app_id" translatable="false">149559294506</string>
+    <string name="facebook_app_id" translatable="false">1638509893018863</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1638509893018863</string>
+
+    <string name="en_yuksek_skorlar">Top Scores</string>
+    <string name="signin_other_error">There was an issue with sign in. Please try again later</string>
+
+
+</resources>

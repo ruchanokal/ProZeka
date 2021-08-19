@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProGehirn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="baglanti_problemi">Verbindungsproblem!</string>
+    <string name="baglanti_problemi_aciklama">Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut!</string>
+    <string name="baglanti_problemi_button">in Ordnung</string>
+    <string name="beyin_sporu">Brainstorming!</string>
+    <string name="beyin_sporu_aciklama">Möchten Sie heute eine Gedankenübung machen?</string>
+    <string name="hata_olustu_toast">Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut!</string>
+    <string name="en_yuksek_skor">Bestes Ergebnis</string>
+    <string name="level">Level</string>
+    <string name="level_buyuk">LEVEL</string>
+    <string name="hatirlatici">Erinnerung</string>
+    <string name="hatirlatici_aciklama">Erinnerungsbenachrichtigungen für das Spiel</string>
+    <string name="oy_ver">Bewerte</string>
+    <string name="share">Teilen</string>
+    <string name="hizli_matematik">Schnelle Mathematik</string>
+    <string name="renkli_matematik">Bunte Mathematik</string>
+    <string name="renkler">Farbpool</string>
+    <string name="oyna">ABSPIELEN</string>
+    <string name="nasil_oynanir">SPIELANLEITUNG</string>
+
+    <string name="ayarlar">die Einstellungen</string>
+    <string name="gunluk_bildirimler_al">Tägliche Benachrichtigungen</string>
+    <string name="cikis_yap">Ausloggen</string>
+
+    <string name="nasil_oynanir_seviyebir_1">Dieses Spiel testet Ihre mathematischen Fähigkeiten sowie Ihre Schnelligkeit und Aufmerksamkeit. Wenn das Spiel beginnt, sehen Sie eine mathematische Operation, die durchgeführt werden muss. Danach müssen Sie die richtige Antwort aus den obigen Optionen finden und markieren. Aber Sie müssen vorsichtig und schnell sein, denn die Optionen werden sich ständig ändern. Im obigen Beispiel bewegen sich die Zahlen basierend auf einem bestimmten Zeitraum.</string>
+    <string name="nasil_oynanir_seviyebir_2">Wenn Sie sich die tabelle oben ansehen, müssen Sie am unteren Bildschirmrand eine Aktion ausführen, und zwar innerhalb der Ihnen zugewiesenen Zeit. Danach müssen Sie aus den sich ständig bewegenden Antwortoptionen die richtige Antwort auswählen. Sie erhalten Punkte, wenn Sie es im Spiel richtig machen.</string>
+    <string name="nasil_oynanir_seviyebir_3">Es gibt zwei verschiedene Modi im Spiel. Der Level-Modus ist ein Spielstil, der darauf basiert, dass der Spieler die angegebenen Levels besteht. Der Spieler versucht, vom ersten Level zum letzten Level zu gelangen. Wenn Sie das letzte Level beenden, ist das Spiel erfolgreich abgeschlossen.</string>
+    <string name="nasil_oynanir_seviyebir_4">Im unendlichen Modus wird das Spiel fortgesetzt, bis Sie einen Fehler machen. In beiden Spielstilen erhöht sich der Schwierigkeitsgrad des Spiels mit steigender Punktzahl und steigendem Level. Die Punkte, die Sie im Endlosmodus sammeln, spiegeln sich in der Bestenliste wider.</string>
+
+    <string name="nasil_oynanir_seviyeiki_1">Zunächst einmal empfehlen wir Ihnen nicht, dieses Spiel zu spielen, ohne das erste Spiel zu spielen. Denn dieses Spiel wurde als obere Version des anderen Spiels entwickelt. Wenn Sie es noch nicht gespielt haben, ist es besser, im ersten Spiel zu üben, um sich an das Spieltempo zu gewöhnen. In diesem Spiel, wie auch in dem anderen Spiel, müssen Sie die angegebene Operation richtig ausführen und Ihre Antwort unter den Bewegungsoptionen finden.</string>
+    <string name="nasil_oynanir_seviyeiki_2">In diesem Level gibt es eine zusätzliche Funktion: Farbige Zahlen. Wenn Sie sich das obige Beispiel ansehen, sollten Sie gesehen haben, dass die zu bedienenden Zahlen in unterschiedlichen Farben sind. Ihre Mission in diesem Spiel; Neben der richtigen Antwort auf die mathematische Operation wird es auch darum gehen, die Mischung der Farben dieser beiden Zahlen unter den Optionen zu finden.</string>
+    <string name="nasil_oynanir_seviyeiki_3">In der obigen Operation ergeben 28 und 29 zusammen 57. Aber unter den Optionen gibt es zwei 57. Hier kommt die Bedeutung der Farben. Im nächsten Schritt müssen Sie feststellen, dass die Mischung der Farben dieser Zahlen (28 und 29) lila ist, und als Antwort auf die Zahl 57 klicken, deren Hintergrundfarbe lila ist.</string>
+    <string name="nasil_oynanir_seviyeiki_4">Vielleicht kennen Sie die Farbmischungen nicht. In Anbetracht dieser Möglichkeit wollten wir die Farbmischungen teilen. Im Spiel erscheinen nur drei verschiedene Farbmischungen. Wir empfehlen Ihnen, das Spiel zu starten, nachdem Sie die tabelle oben untersucht und die Farbmischungen verstanden haben.</string>
+    <string name="nasil_oynanir_seviyeiki_5">Es gibt zwei verschiedene Modi im Spiel. Der Level-Modus ist ein Spielstil, der darauf basiert, dass der Spieler die angegebenen Levels besteht. Der Spieler versucht, vom ersten Level zum letzten Level zu gelangen. Wenn Sie das letzte Level beenden, ist das Spiel erfolgreich abgeschlossen.</string>
+    <string name="nasil_oynanir_seviyeiki_6">Im unendlichen Modus wird das Spiel fortgesetzt, bis Sie einen Fehler machen. In beiden Spielstilen erhöht sich der Schwierigkeitsgrad des Spiels mit steigender Punktzahl und steigendem Level. Die Punkte, die Sie im Endlosmodus sammeln, spiegeln sich in der Bestenliste wider.</string>
+
+
+    <string name="nasil_oynanir_seviyeuc_1">Hier ist ein originelles Spiel, das Ihre Aufmerksamkeit und Schnelligkeit testet. In der obigen Tabelle können Sie sehen, dass grau auf der Karte unter dem Timer steht. Sie haben vielleicht bemerkt, dass oben links "FARBE" steht. Ihr Ziel hier ist es, nach der Farbe im Text zu suchen, die "GRAU", d. h. orange, als "FARBE" in den Optionen unten anzeigt. Dann sollten Sie zählen, wie viele orangefarbene Texte es gibt und die richtige Antwort in den Optionen markieren.</string>
+    <string name="nasil_oynanir_seviyeuc_2">Auch die Situation in "TEXT" unterscheidet sich geringfügig von der vorherigen. Im obigen Beispiel müssen Sie bemerkt haben, dass auf der Karte unter dem Timer GRAU steht und auf der Karte oben links "TEXT". Ihr Ziel hier ist es, in den Optionen unten nach „GRAY“ als Text zu suchen. Sie sollten also nach dem Text „GRAY“ suchen, egal in welcher Farbe er gemalt ist. Dann sollten Sie zählen, wie viele es sind, und die richtige Antwort in den Optionen markieren.</string>
+    <string name="nasil_oynanir_seviyeuc_3">In der dritten Situation in diesem Spiel müssen sowohl die Farbnamen der Wörter als auch die Farben darin gleich sein. In der obigen Tabelle sehen Sie, dass es 4 Wörter gibt, die diese Bedingungen erfüllen. Zum Beispiel müssen Sie gesehen haben, dass die Farbe von "GELB" aus den Wörtern im obigen Kästchen ebenfalls gelb ist.</string>
+    <string name="nasil_oynanir_seviyeuc_4">Es gibt zwei verschiedene Modi im Spiel. Der Level-Modus ist ein Spielstil, der darauf basiert, dass der Spieler die angegebenen Levels besteht. Der Spieler versucht, vom ersten Level zum letzten Level zu gelangen. Wenn Sie das letzte Level beenden, ist das Spiel erfolgreich abgeschlossen.</string>
+    <string name="nasil_oynanir_seviyeuc_5">Im unendlichen Modus wird das Spiel fortgesetzt, bis Sie einen Fehler machen. In beiden Spielstilen erhöht sich der Schwierigkeitsgrad des Spiels mit steigender Punktzahl und steigendem Level. Die Punkte, die Sie im Endlosmodus sammeln, spiegeln sich in der Bestenliste wider.</string>
+
+
+    <string name="devam">Nächster</string>
+    <string name="cikis_yapmak_icin_tekrar_dokunun">Drücken Sie zum Beenden erneut zurück</string>
+    <string name="sure_bitti">Zeit ist um!</string>
+    <string name="tekrar_oyna">NOCHMAL ABSPIELEN</string>
+    <string name="oyuna_devam">WEITER SPIELEN</string>
+    <string name="reklam_yuklenemedi">Die Anzeige konnte nicht geladen werden, bitte überprüfen Sie Ihre Internetverbindung!</string>
+    <string name="tuh_be_az_kalmisti">Du warst so nah!</string>
+    <string name="yarisini_bitirdin_bile">Du hast bereits das halbe Level geschafft!</string>
+    <string name="neredeyse_yarisina_geldin">Du bist fast auf halbem Weg!</string>
+    <string name="bir_daha_dene">Versuch es noch einmal!</string>
+    <string name="level_modu">Level Modus</string>
+    <string name="sonsuz_mod">Unendlicher Modus</string>
+    <string name="bilgilendirme_metnini_birdaha_gosterme">Nicht mehr anzeigen</string>
+    <string name="metin">TEXT</string>
+    <string name="renk">FARBE</string>
+    <string name="metinesittirrenk">TEXT = FARBE</string>
+    <string name="ayni">GLEICH</string>
+    <string name="kirmizi">ROT</string>
+    <string name="mavi">BLAU</string>
+    <string name="sari">GELB</string>
+    <string name="turuncu">ORANGE</string>
+    <string name="mor">LILA</string>
+    <string name="yesil">GRÜN</string>
+    <string name="siyah">SCHWARZ</string>
+    <string name="gri">GRAU</string>
+    <string name="pembe">ROSA</string>
+    <string name="sifremi_unuttum_text">Bitte geben Sie Ihre E-Mail-Adresse in das unten stehende Feld ein und klicken Sie auf die Schaltfläche OK. Ein Link wird an Ihre E-Mail-Adresse gesendet, um Ihr Passwort zurückzusetzen. Sie können Ihren Posteingang in wenigen Minuten überprüfen.</string>
+    <string name="eposta_adresinizi_girin">Deine Emailadresse</string>
+    <string name="eposta_gonderilemedi">E-Mail konnte nicht gesendet werden. Bitte versuchen Sie es erneut.</string>
+    <string name="eposta_gonderildi">E-Mail gesendet, bitte überprüfen Sie Ihre E-Mail-Adresse.</string>
+    <string name="lutfen_gerekli_alanlari_doldurunuz">Bitte füllen Sie alle Pflichtfelder aus</string>
+    <string name="lutfen_sifrenizi_giriniz">Bitte geben Sie Ihr Passwort ein</string>
+    <string name="lutfen_kayitli_emailinizi_giriniz">Bitte geben Sie Ihre registrierte E-Mail-Adresse ein</string>
+    <string name="boyle_bir_kullanici_yok">Es gibt keinen Benutzerdatensatz, der dieser Kennung entspricht. Der Benutzer wurde möglicherweise gelöscht.</string>
+    <string name="lutfen_internet_baglantinizi_kontrol_edin">Bitte überprüfe deine Internetverbindung!</string>
+    <string name="sifrenizi_girin">Ihr Passwort</string>
+    <string name="giris_yap">Anmeldung</string>
+    <string name="sifremi_unuttum">Ich habe mein Passwort vergessen</string>
+    <string name="bir_hesabin_yok_mu">Sie haben kein Konto?</string>
+    <string name="kayit_ol">Registrieren</string>
+    <string name="kullaniciAdi">Nutzername</string>
+    <string name="eposta_adresi">E-Mail-Addresse</string>
+    <string name="sifre">Passwort</string>
+    <string name="bir_sifre_seciniz">Passwort</string>
+    <string name="sifreyi_tekrar_giriniz">Passwort (erneut)</string>
+    <string name="ile_giris_yap"> </string>
+    <string name="lutfen_baska_bir_kullanici_adi_deneyin">Bitte versuchen Sie es mit einem anderen Benutzernamen!</string>
+    <string name="sifreler_ayni_olmalidir">Passwörter müssen übereinstimmen</string>
+    <string name="hosgeldin">Herzlich Willkommen</string>
+    <string name="eposta_kullaniliyor">Diese E-Mail-Adresse wird bereits von einem anderen Konto verwendet</string>
+    <string name="alti_haneli_sifre">Bitte geben Sie ein Passwort mit mindestens 6 Zeichen ein</string>
+    <string name="gecerli_email">Bitte geben Sie eine gültige E-Mail-Adresse ein.</string>
+    <string name="tebrikler">GLÜCKWUNSCH!</string>
+    <string name="oyunu_basariyla_tamamladin">Sie haben das Spiel erfolgreich abgeschlossen!</string>
+    <string name="tekrar_oyna_">Nochmal abspielen</string>
+    <string name="menuye_git">Gehe zum Menü</string>
+    <string name="oyun_sona_erdi">SPIEL IST AUS</string>
+    <string name="reklam_izle_devam_et">Anzeige ansehen und weitermachen</string>
+    <string name="skorun">IHRE PUNKTZAHL</string>
+    <string name="en_yuksek_skorlar">HÖCHSTPUNKTZAHL</string>
+    <string name="signin_other_error">Bei der Anmeldung ist ein Problem aufgetreten. Bitte versuchen Sie es später noch einmal.</string>
+
+
+</resources>

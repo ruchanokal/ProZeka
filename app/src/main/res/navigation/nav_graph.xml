@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/anaFragment">
+
+    <fragment
+        android:id="@+id/anaFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.AnaFragment"
+        android:label="fragment_ana"
+        tools:layout="@layout/fragment_ana" >
+        <action
+            android:id="@+id/action_anaFragment_to_seviyeBirFragment"
+            app:destination="@id/seviyeBirFragment" />
+        <action
+            android:id="@+id/action_anaFragment_to_seviyeIkiFragment"
+            app:destination="@id/seviyeIkiFragment" />
+        <action
+            android:id="@+id/action_anaFragment_to_seviyeUcFragment"
+            app:destination="@id/seviyeUcFragment" />
+        <argument
+            android:name="enyuksekskor3"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="enyuksekskor2"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="enyuksekskor1"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="levelbirincioyun"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="levelikincioyun"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="levelucuncuoyun"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_anaFragment_to_nasilOynanirFragment"
+            app:destination="@id/nasilOynanirFragment" />
+        <action
+            android:id="@+id/action_anaFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seviyeBirFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.SeviyeBirFragment"
+        android:label="fragment_seviye_bir"
+        tools:layout="@layout/fragment_seviye_bir" >
+        <action
+            android:id="@+id/action_seviyeBirFragment_to_anaFragment"
+            app:destination="@id/anaFragment" />
+        <argument
+            android:name="kullaniciAdi"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/seviyeIkiFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.SeviyeIkiFragment"
+        android:label="fragment_seviye_iki"
+        tools:layout="@layout/fragment_seviye_iki" >
+        <action
+            android:id="@+id/action_seviyeIkiFragment_to_anaFragment"
+            app:destination="@id/anaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seviyeUcFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.SeviyeUcFragment"
+        android:label="fragment_seviye_uc"
+        tools:layout="@layout/fragment_seviye_uc">
+        <action
+            android:id="@+id/action_seviyeUcFragment_to_anaFragment"
+            app:destination="@id/anaFragment"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/nasilOynanirFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.NasilOynanirFragment"
+        android:label="fragment_nasil_oynanir"
+        tools:layout="@layout/fragment_nasil_oynanir" >
+        <argument
+            android:name="keyInteger"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.ruchanokal.mathmaster.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

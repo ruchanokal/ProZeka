@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "149559294506",
+    "project_id": "mathmaster-f203c",
+    "storage_bucket": "mathmaster-f203c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149559294506:android:373a777a7c30d9bfbf6153",
+        "android_client_info": {
+          "package_name": "com.ruchanokal.mathmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149559294506-6d9v7n7ijvded3g5mk4jkljoptk8q52l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ruchanokal.mathmaster",
+            "certificate_hash": "56ba3e2abefa3ba81b5a685992d7c333fad4906a"
+          }
+        },
+        {
+          "client_id": "149559294506-mntjigbf7caf2gkrq9p7ad4bjbv23pvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ruchanokal.mathmaster",
+            "certificate_hash": "ef48a9fd8aaf3541c4f1310831ccaba07b480c4e"
+          }
+        },
+        {
+          "client_id": "149559294506-3dsp7u6nceevtj0k7pd8818uum63le36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoPkgRB4-cOTw2hvtJLQW9_KVOXmDhOV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149559294506-3dsp7u6nceevtj0k7pd8818uum63le36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5016889744069609~1356209190"
+    }
+  ],
+  "configuration_version": "1"
+}

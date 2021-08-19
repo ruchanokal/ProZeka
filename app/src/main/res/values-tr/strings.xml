@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProZeka</string>
+    <string name="baglanti_problemi">Bağlantı Problemi!</string>
+    <string name="baglanti_problemi_aciklama">Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin!</string>
+    <string name="baglanti_problemi_button">Tamam</string>
+    <string name="beyin_sporu">Beyin Sporu!</string>
+    <string name="beyin_sporu_aciklama">Bugün biraz zihin egzersizi yapmaya ne dersiniz?</string>
+    <string name="hata_olustu_toast">Hata oluştu, lütfen tekrar deneyin!</string>
+    <string name="en_yuksek_skor">En Yüksek Skor</string>
+    <string name="level">Level</string>
+    <string name="level_buyuk">LEVEL</string>
+    <string name="hatirlatici">Hatırlatıcı</string>
+    <string name="hatirlatici_aciklama">Oyun için hatırlatıcı bildirimleri</string>
+    <string name="oy_ver">Oy Ver</string>
+    <string name="share">Paylaş</string>
+    <string name="hizli_matematik">Hızlı Matematik</string>
+    <string name="renkli_matematik">Renkli Sayılar</string>
+    <string name="renkler">Renk Havuzu</string>
+    <string name="oyna">OYNA</string>
+    <string name="nasil_oynanir">NASIL OYNANIR?</string>
+
+    <string name="ayarlar">Ayarlar</string>
+    <string name="gunluk_bildirimler_al">Günlük Bildirimler Al</string>
+    <string name="cikis_yap">Çıkış Yap</string>
+
+    <string name="nasil_oynanir_seviyebir_1">Bu oyun matematik becerilerinizi test etmekle birlikte hızınızı ve dikkatinizi de ölçüyor. Oyun başladığı zaman yapılması gereken bir matematik işlemi göreceksiniz. Bu işlemi yaptıktan sonra doğru cevabı üstündeki seçeneklerden bulup işaretlemelisiniz. Ancak dikkatli ve hızlı olmalısınız çünkü seçenekler sürekli yer değiştiriyor olacak. Yukarıdaki örnekte sayılar belirli bir periyoda bağlı olarak hareket ediyor.</string>
+    <string name="nasil_oynanir_seviyebir_2">Tabloya baktığınızda ekranın alt kısmında yapılması gereken bir işlem var ve bu işlemi size verilen süre içerisinde yapmalısınız. Bundan sonra, sürekli hareket eden cevap seçenekleri arasından doğru cevabı seçmelisiniz. Oyunda doğru yaptıkça puan kazanacaksınız.</string>
+    <string name="nasil_oynanir_seviyebir_3">Oyunda iki farklı mod vardır. Level modu, oyuncunun belirtilen seviyeleri geçmesi üzerine kuruludur. Oyuncu birinci seviyeden son seviyeye kadar gelmeye çalışır. Son seviyeyi de bitirdiğinde oyun başarıyla tamamlanmış olur.</string>
+    <string name="nasil_oynanir_seviyebir_4">Sonsuz modda amacınız en yüksek skora ulaşmaktır. Bu modda oyun, siz hata yapana kadar devam eder. Her iki oyun tarzında da puanınız yükseldikçe ve seviyeniz arttıkça oyun zorluğu artacaktır. Sonsuz modda topladığınız puanlar en yüksek skorlar listesinde yansıtılır.</string>
+
+    <string name="nasil_oynanir_seviyeiki_1">Öncelikle, birinci oyunu oynamadan bu oyunu oynamanızı tavsiye etmiyoruz. Çünkü bu oyun diğer oyunun üst versiyonu olarak geliştirildi. Eğer oynamadıysanız birinci oyunda pratik yapmanız oyun temposuna alışmak açısından daha uygun olacaktır. Bu oyunda da diğer oyunda olduğu gibi size verilen işlemi doğru yapmalı, ayrıca cevabınızı hareket eden seçenekler arasından bulmanız gerekmektedir.</string>
+    <string name="nasil_oynanir_seviyeiki_2">Bu seviyede eklenen bir özellik var: Renkli Sayılar. Yukarıdaki örneğe bakarsanız işlem yapılacak sayıların farklı renklerde olduğunu görmüş olmalısınız. Bu oyundaki göreviniz; işlemin doğru cevabını bulmakla birlikte bu iki sayının renklerinin karışımını da seçenekler arasından yakalamak olacak.</string>
+    <string name="nasil_oynanir_seviyeiki_3">Yukarıdaki işlemde 28 ile 29\'un toplamı 57 yapıyor. Ancak seçenekler arasında iki tane 57 var. İşte burada renklerin önemi ortaya çıkıyor. Son aşamada bu sayıların (28 ve 29\'un) renklerinin karışımının mor olduğunu tespit etmeniz ve cevap olarak arkaplan rengi mor olan 57 sayısına tıklamanız gerekmektedir.</string>
+    <string name="nasil_oynanir_seviyeiki_4">Renklerin karışımlarını bilmiyor olabilirsiniz. Bu ihtimali düşünerek renklerin karışımlarını paylaşmak istedik. Oyunda sadece üç farklı renk karışımı karşınıza çıkacak. Yukarıdaki tabloyu inceleyip renk karışımlarını kavradıktan sonra oyuna başlamanızı tavsiye ederiz.</string>
+    <string name="nasil_oynanir_seviyeiki_5">Oyunda iki farklı mod vardır. Level modu, oyuncunun belirtilen seviyeleri geçmesi üzerine kuruludur. Oyuncu birinci seviyeden son seviyeye kadar gelmeye çalışır. Son seviyeyi de bitirdiğinde oyun başarıyla tamamlanmış olur.</string>
+    <string name="nasil_oynanir_seviyeiki_6">Sonsuz modda amacınız en yüksek skora ulaşmaktır. Bu modda oyun, siz hata yapana kadar devam eder. Her iki oyun tarzında da puanınız yükseldikçe ve seviyeniz arttıkça oyun zorluğu artacaktır. Sonsuz modda topladığınız puanlar en yüksek skorlar listesinde yansıtılır.</string>
+
+    <string name="nasil_oynanir_seviyeuc_1">İşte size dikkatinizi ve hızınızı ölçen bir özel bir oyun. Yukarıdaki tabloda süre sayarın altındaki kartta GRİ yazdığını görüyorsunuz. Sol üstte de “RENK” yazdığını farketmişsinizdir. Buradaki amacınız, “GRİ” yazan metnin içerisindeki rengi yani turuncuyu “RENK ” olarak aşağıdaki seçeneklerde aramak olacak.  Sonra da ne kadar turuncu renkte yazı varsa sayıp şıklardaki doğru cevabı işaretlemelisiniz.</string>
+    <string name="nasil_oynanir_seviyeuc_2">Oyunun sol üst köşesinde “METİN” yazısını gördüğünüzde sizden istenilen öncekinden biraz farklı olacak. Yukarıdaki örnekte süre sayarın altındaki kartta GRİ yazdığını, sol üstteki kartta da “METİN” yazdığını farketmiş olmalısınız. Buradaki amacınız, “GRİ” yi metin olarak aşağıdaki seçeneklerde aramak olacak.  Yani hangi renge boyanmış olursa olsun “GRİ” metnini aramalısınız. Sonra da ne kadar varsa sayıp şıklardaki doğru cevabı işaretlemelisiniz.</string>
+    <string name="nasil_oynanir_seviyeuc_3">Oyunun üçüncü şeklinde sütunlardaki kelimelerin hem renk adlarının hem de içinde bulunan renklerin aynı olması gerekiyor. Yukarıdaki tabloda bu şartlara uyan 4 kelimenin olduğunu görüyorsunuz. Mesela yukarıdaki kutu içerisine alınmış kelimelerden “SARI” nın renginin de sarı olduğunu görmüş olmalısınız.</string>
+    <string name="nasil_oynanir_seviyeuc_4">Oyunda iki farklı mod vardır. Level modu, oyuncunun belirtilen seviyeleri geçmesi üzerine kuruludur. Oyuncu birinci seviyeden son seviyeye kadar gelmeye çalışır. Son seviyeyi de bitirdiğinde oyun başarıyla tamamlanmış olur.</string>
+    <string name="nasil_oynanir_seviyeuc_5">Sonsuz modda amacınız en yüksek skora ulaşmaktır. Bu modda oyun, siz hata yapana kadar devam eder. Her iki oyun tarzında da puanınız yükseldikçe ve seviyeniz arttıkça oyun zorluğu artacaktır. Sonsuz modda topladığınız puanlar en yüksek skorlar listesinde yansıtılır.</string>
+
+    <string name="devam">devam</string>
+    <string name="cikis_yapmak_icin_tekrar_dokunun">Çıkış yapmak için tekrar dokunun</string>
+    <string name="sure_bitti">Süre Bitti!</string>
+    <string name="tekrar_oyna">TEKRAR OYNA</string>
+    <string name="oyuna_devam">OYUNA DEVAM</string>
+    <string name="reklam_yuklenemedi">Reklam yüklenemedi, lütfen internet bağlantınızı kontrol edin!</string>
+    <string name="tuh_be_az_kalmisti">Tüh be… az kalmıştı</string>
+    <string name="yarisini_bitirdin_bile">Yarısını bitirdin bile!</string>
+    <string name="neredeyse_yarisina_geldin">Neredeyse yarısına geldin!</string>
+    <string name="bir_daha_dene">Tekrar Dene!</string>
+    <string name="level_modu">Level Modu</string>
+    <string name="sonsuz_mod">Sonsuz Mod</string>
+    <string name="bilgilendirme_metnini_birdaha_gosterme">Bu bilgilendirmeyi bir daha gösterme</string>
+    <string name="metin">METİN</string>
+    <string name="renk">RENK</string>
+    <string name="metinesittirrenk">METİN = RENK</string>
+    <string name="ayni">AYNI</string>
+    <string name="kirmizi">KIRMIZI</string>
+    <string name="mavi">MAVİ</string>
+    <string name="sari">SARI</string>
+    <string name="turuncu">TURUNCU</string>
+    <string name="mor">MOR</string>
+    <string name="yesil">YEŞİL</string>
+    <string name="siyah">SİYAH</string>
+    <string name="gri">GRİ</string>
+    <string name="pembe">PEMBE</string>
+    <string name="sifremi_unuttum_text">Aşağıdaki boşluğa e-posta adresinizi yazıp TAMAM butonuna tıkladıktan sonra şifrenizi yenilemeniz için e-posta adresinize bir link gönderilecektir. Birkaç dakika içerisinde gelen kutunuzu kontrol edebilirsiniz.</string>
+    <string name="eposta_adresinizi_girin">E-posta adresinizi girin</string>
+    <string name="eposta_gonderilemedi">E-mail gönderilemedi, lütfen tekrar deneyin.</string>
+    <string name="eposta_gonderildi">E-mail gönderildi, gelen kutunuzu kontrol edebilirsiniz.</string>
+    <string name="lutfen_gerekli_alanlari_doldurunuz">Please complete all the required fields</string>
+    <string name="lutfen_sifrenizi_giriniz">Lütfen şifrenizi girin</string>
+    <string name="lutfen_kayitli_emailinizi_giriniz">Lütfen kayıtlı e-posta adresinizi giriniz</string>
+    <string name="boyle_bir_kullanici_yok">Bu e-posta ile eşleşen bir kullanıcı yok. Lütfen tekrar deneyin!</string>
+    <string name="lutfen_internet_baglantinizi_kontrol_edin">Lütfen internet bağlantınızı kontrol edin</string>
+    <string name="sifrenizi_girin">Lütfen şifrenizi girin</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="sifremi_unuttum">Şifremi Unuttum</string>
+    <string name="bir_hesabin_yok_mu">Bir Hesabın Yok mu?</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+    <string name="kullaniciAdi">Kullanıcı Adı</string>
+    <string name="eposta_adresi">E-posta adresi</string>
+    <string name="sifre">Şifre</string>
+    <string name="bir_sifre_seciniz">Bir şifre seçiniz</string>
+    <string name="sifreyi_tekrar_giriniz">Şifreyi tekrar giriniz</string>
+    <string name="ile_giris_yap">ile giriş yap</string>
+    <string name="lutfen_baska_bir_kullanici_adi_deneyin">Lütfen başka bir kullanıcı adı deneyin</string>
+    <string name="sifreler_ayni_olmalidir">Şifreler aynı olmalıdır</string>
+    <string name="hosgeldin">Hoşgeldin</string>
+    <string name="eposta_kullaniliyor">Bu e-posta adresi zaten başka bir hesap tarafından kullanılıyor</string>
+    <string name="alti_haneli_sifre">Lütfen en az 6 haneli bir şifre giriniz</string>
+    <string name="gecerli_email">Lütfen geçerli bir e-posta adresi giriniz.</string>
+    <string name="tebrikler">TEBRİKLER!</string>
+    <string name="oyunu_basariyla_tamamladin">Oyunu başarıyla tamamladın!</string>
+    <string name="tekrar_oyna_">Tekrar Oyna</string>
+    <string name="menuye_git">Menüye Git</string>
+    <string name="oyun_sona_erdi">OYUN BİTTİ</string>
+    <string name="reklam_izle_devam_et">Reklam izle ve devam et</string>
+    <string name="skorun">SKORUN</string>
+    <string name="en_yuksek_skorlar">en yüksek skorlar</string>
+    <string name="signin_other_error">Oturum açmayla ilgili bir sorun oluştu, lütfen daha sonra tekrar deneyin</string>
+
+
+</resources>

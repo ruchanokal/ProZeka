@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_for_popup3"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:id="@+id/carpi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_cancel_24"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carpi">
+
+        <TextView
+            android:id="@+id/skorunText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/skorun"
+            android:textColor="#C89635"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <TextView
+            android:id="@+id/skorunRakam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/fredoka_one"
+            android:text="70"
+            android:textColor="#C89635"
+            android:textSize="35sp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/skorunText" />
+
+        <TextView
+            android:id="@+id/enYuksekSkorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/en_yuksek_skor"
+            android:textColor="#C89635"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/skorunRakam" />
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewTrophy"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/enYuksekSkorText"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@+id/skorunRakam"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/ic_star"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/enYuksekSkorText" />
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:layout_below="@+id/skorunRakam"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/ic_star"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/enYuksekSkorText" />
+
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/skorunRakam"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/ic_star"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/enYuksekSkorText" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:drawableLeft="@drawable/ic_baseline_smart_display_24"
+            android:drawablePadding="5dp"
+            android:id="@+id/reklamIzleVeDevamEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="190dp"
+            android:background="@drawable/button_bg_reklam_izle"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/reklam_izle_devam_et"
+            android:textColor="#45A720"
+            android:textSize="11dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTrophy" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:drawableLeft="@drawable/ic_baseline_replay_24"
+            android:drawablePadding="5dp"
+            android:id="@+id/tekrarOynaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="190dp"
+            android:background="@drawable/button_bg_tekrar_oyna"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/tekrar_oyna"
+            android:textColor="#206CA7"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/en_yuksek_skorlar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reklamIzleVeDevamEt" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:drawableLeft="@drawable/ic_crown2"
+            android:drawablePadding="6dp"
+            android:id="@+id/en_yuksek_skorlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="190dp"
+            android:background="@drawable/button_bg3"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/en_yuksek_skorlar"
+            android:textColor="#C89635"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tekrarOynaButton" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
